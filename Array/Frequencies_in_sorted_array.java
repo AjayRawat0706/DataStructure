@@ -14,7 +14,7 @@ public class Frequencies_in_sorted_array {
             }
         }
 
-        System.out.println(arr[arr.length-1]+" = "+freq); //this is for the last element
+        System.out.println(arr[arr.length-1]+" = "+freq);//this is for the last element
 
 
     }
@@ -34,3 +34,4 @@ public class Frequencies_in_sorted_array {
         frequency(arr);
     }
 }
+/*time complexity of this solution is= theta(n)*/
