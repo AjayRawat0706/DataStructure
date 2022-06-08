@@ -13,8 +13,9 @@ public class Maximum_Sum_in_CircularSubArray_OptimizedSolution {
     }
      static int OverallSum(int arr[]){
         int normalMax = normalMaxSum(arr);
-        if (normalMax<0){
-            return normalMax;
+        if (normalMax<0)
+        {
+            return normalMax;  //if the normal max is less than zero it means every element is -ve. so we will return normal max
         }
         int arraySum=0;
         for(int i=0;i<arr.length;i++)  //here we find the overall sum of array and invert every element i.e +ve to -ve and -ve to +ve
