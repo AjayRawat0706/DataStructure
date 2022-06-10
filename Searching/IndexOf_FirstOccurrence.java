@@ -35,3 +35,5 @@ public class IndexOf_FirstOccurrence {
         System.out.println(firstOccurrence(arr,5));
     }
 }
+
+/*time complexity of this solution is: O(log n). */
