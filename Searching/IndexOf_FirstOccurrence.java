@@ -8,7 +8,7 @@ public class IndexOf_FirstOccurrence {
             return -1;
         }
         int low = 0;
-        int high=arr.length;
+        int high=arr.length-1;
         while(high>=low){
             int mid =(high+low)/2;
             if(x==arr[mid]){

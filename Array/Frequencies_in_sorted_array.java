@@ -20,17 +20,8 @@ public class Frequencies_in_sorted_array {
     }
 
     public static void main(String[] args) {
-        int arr[] = new int[10];
-        arr[0]=10;
-        arr[1]=10;
-        arr[2]=10;
-        arr[3]=40;
-        arr[4]=40;
-        arr[5]=50;
-        arr[6]=60;
-        arr[7]=60;
-        arr[8]=90;
-        arr[9]=90;
+        int arr[] = {10,10,10,20,20,30,40,40,50};
+
         frequency(arr);
     }
 }

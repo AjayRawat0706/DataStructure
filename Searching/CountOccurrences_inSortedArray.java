@@ -51,6 +51,7 @@ public class CountOccurrences_inSortedArray {
 
     static int noOfCount(int arr[],int x) //function to find no of times element appear
     {
+
         int first= firstOccurrence(arr,x);
         if (first==-1){
             return 0;
